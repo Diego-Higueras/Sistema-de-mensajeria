@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  position: relative;
+  height: 100vh;
+  font-family: "Host Grotesk", sans-serif;
+  font-optical-sizing: auto;
+}
+
+:root {
+  /* Colores */
+  --soap: #cdc3e6;
+  --blue-bell: #a491d2;
+  --pale-lavender: #d4dcff;
+  --outer-space: #444749;
+  --dark-jungle: #1b1f21;
+  --old-silver: #828485;
+  --platinum: #e8ebe4;
+  --white: #ffffff;
+  --grayb: 1px solid #bec1bb;
+  --gray: #bec1bb;
+  /* Font-sizes */
+  --l: 45px;
+  --m: 16px;
+  --s: 14px;
+  --xs: 10px;
+}
+
+main {
+  display: flex;
+}
+
+li {
+  display: flex;
+  padding: 0 1rem;
+  width: 100%;
+  height: 4rem;
+  list-style: none;
+  border: 1px solid var(--gray);
+  width: 17m;
+  height: 10vh;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: "Host Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  text-align: center;
+}
+
+.Texto {
+  text-align: center;
+}
+
+.nuevochat {
+  flex: 1;
+  background-color: var(--platinum);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactos {
+  flex-wrap: wrap;
+  flex-basis: 20rem;
+  background-color: var(--white);
+  top: 0;
+  left: 0;
+  border-right: 1px solid var(--grayb); /* Usa grayb aquí */
+  color: var(--outer-space);
+}
+
+.imagen-redondeada {
+  border-radius: 10%;
+  width: 250px;
+  height: 250px;
+}
+
+.fotoperfil {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+interaccion {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.morado {
+  background-color: #a68aee;
+}
+
+h6 {
+    margin: 0;
+    margin-top: 10px;
+  }
+  
+  p {
+    margin: 5px 0 10px 0; 
+     font-size: 0.9rem;
+  }
